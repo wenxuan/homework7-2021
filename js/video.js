@@ -36,7 +36,7 @@ function() {
 document.querySelector("#skip").addEventListener("click", 
 function() {
 	if (video.currentTime < video.duration - 15){
-		console.log("Advance 15 Second")
+		console.log(video.currentTime);
 		video.currentTime += 15
 	}
 	else {
